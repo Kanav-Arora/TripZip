@@ -1,5 +1,6 @@
 {
     "dependencies": {
+        "@novu/node": "^0.23.1",
         "aws-sdk": "^2.1545.0",
         "axios": "^1.5.1",
         "bcrypt": "^5.1.1",

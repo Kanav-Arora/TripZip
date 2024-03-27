@@ -39,6 +39,9 @@ module.exports = {
     GoogleAuthClientID: process.env.CLIENTID,
     S3ClientObject: s3,
     AwsUserProfileImagesBucketName: AwsUserProfileImagesBucket,
+    AwsBucketUrl: process.env.AWS_BUCKET_URL,
     GmailID: process.env.GMAIL_ID,
     GmailPassword: process.env.GMAIL_PASSWORD,
+    NovuAPI: process.env.NOVU_API,
+    NovuTriggerIdentifier: process.env.NOVU_WORKFLOW_TRIGGER_IDENTIFIER,
 };
